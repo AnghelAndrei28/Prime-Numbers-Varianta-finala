@@ -49,7 +49,7 @@ namespace WindowsFormsApp2
                     }
                     if (k != 0)
                     {
-                        this.BackColor = Color.DarkRed;
+                        this.BackColor = Color.Red;
                         label1.Text = ("   Numarul nu este prim");
                     }
                     else
