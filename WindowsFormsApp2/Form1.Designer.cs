@@ -36,7 +36,8 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(225, 193);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(224, 188);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(195, 92);
             this.button1.TabIndex = 0;
@@ -47,19 +48,19 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(156, 125);
+            this.textBox1.Location = new System.Drawing.Point(135, 125);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(340, 21);
+            this.textBox1.Size = new System.Drawing.Size(370, 21);
             this.textBox1.TabIndex = 1;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(225, 63);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(174, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 16);
+            this.label1.Size = new System.Drawing.Size(284, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Verifica daca numarul este prim";
             // 
@@ -67,6 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(643, 390);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);

@@ -37,6 +37,7 @@ namespace WindowsFormsApp2
             {
                 this.BackColor = Color.White;
                 label1.Text = ("Introduce un numar valid");
+                MessageBox.Show("Textul dumneavoastra nu este un numar valid!");
             }
             else
             {
@@ -50,12 +51,14 @@ namespace WindowsFormsApp2
                     if (k != 0)
                     {
                         this.BackColor = Color.Red;
-                        label1.Text = ("   Numarul nu este prim");
+                        label1.Text = ("Numarul dumneavoastra nu este prim");
+                        MessageBox.Show(" Numarul dumneavoastra nu este prim");
                     }
                     else
                     {
-                        this.BackColor = Color.DarkGreen;
-                        label1.Text = ("   Numarul este prim");
+                        this.BackColor = Color.Green;
+                        label1.Text = ("Numarul dumneavoastra este prim");
+                        MessageBox.Show(" Numarul dumneavoastra este prim");
                     }
                 }
                 else
@@ -63,7 +66,8 @@ namespace WindowsFormsApp2
                     if (num1 == 1)
                     {
                         this.BackColor = Color.DarkRed;
-                        label1.Text = ("   Numarul nu este prim");
+                        label1.Text = ("Numarul dumneavoastra nu este prim");
+                        MessageBox.Show(" Numarul dumneavoastra nu este prim");
                     }
                 }
             }
